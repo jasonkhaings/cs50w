@@ -1,0 +1,95 @@
+.nav {
+    text-align: right;
+    font-size: large;
+}
+
+.nav a {
+    color: black;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.5%;
+    width: 20%;
+}
+
+.searchbar {
+    border-width: 1px;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    width: 500px;
+    outline: none;
+}
+
+.searchbtn, form a#lucky {
+    font-size: 15px;
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(85, 85, 85);
+    text-decoration: none;
+    background-color: #fdffef;
+    border-style: none;
+    margin: 11px 4px;
+    padding: 8px 16px;
+}
+
+.searchbtn:hover, form a#lucky:hover {
+    cursor: pointer;
+    background-color: rgb(246, 248, 255);
+}
+
+.form {
+    display: block;
+    text-align: center;
+}
+
+#header {
+    color: crimson;
+    margin-left: 3%;
+}
+
+.advancesearch {
+    display: block;
+    margin: 8px;
+    padding: 5px;
+    width: 500px;
+    border-color: rgb(214, 214, 214);
+    border-width:0.5px;
+    border-style: solid;
+    outline: none;
+}
+
+.advancesearch:focus {
+    border-color: rgb(155, 155, 255);
+}
+
+#tablehead {
+    font-size: larger;
+}
+
+.advanceform {
+    display: block;
+    margin: 15px 40px;
+}
+
+#advancebtn {
+    font-size: smaller;
+    float: right;
+    background-color: #0059ff;
+    border-radius: 3px;
+    color: white;
+    border-color: rgb(0, 0, 247);
+    border-width: 0.1px;
+  margin: 10px 5px;
+  padding: 7px 12px;
+}
